@@ -1,9 +1,19 @@
 # REALIZA UN ALGORITMO SOBRE ALGUNA ACTIVIDAD EN TU VIDA COTIDIANA.
-
-
-
-
-
-
+Inicio
+Desmaquillante, algodón, jabón y agua
+Colocar desmaquillante en el algodón
+Limpiar el rostro con dicho algodón
+Enjavonarse las manos 
+Llevarse al rostro las manos enjabonadas y tallar
+Enjuagar el rostro
+Fin
 
 # DESARROLLA UN ALGORITMO QUE CALCULE LA EDAD DE UNA PERSONA CON BASE A LA OBTENCION DE SU FECHA DE NACIMIENTO.
+
+Inicio
+Declarar (fechaactual, fechanacimiento, edad)
+ingrese Fecha actual
+
+
+
+
