@@ -13,8 +13,9 @@ Fin
 Inicio
 Declarar (fecha_actual, fecha_nacimiento, edad):naturales
 Ingrese (fecha_actual,fecha_nacimiento)
-
-
+edad = fecha_actual -fecha_nacimiento
+Mostrar edad
+Fin
 
 
 
