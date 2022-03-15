@@ -11,8 +11,9 @@ Fin
 # DESARROLLA UN ALGORITMO QUE CALCULE LA EDAD DE UNA PERSONA CON BASE A LA OBTENCION DE SU FECHA DE NACIMIENTO.
 
 Inicio
-Declarar (fechaactual, fechanacimiento, edad)
-ingrese Fecha actual
+Declarar (fecha_actual, fecha_nacimiento, edad):naturales
+Ingrese (fecha_actual,fecha_nacimiento)
+
 
 
 
