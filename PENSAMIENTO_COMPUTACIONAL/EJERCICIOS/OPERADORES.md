@@ -2,13 +2,43 @@
 Reto. Describe el proceso en que se computa las siguientes fórmulas.
 
 X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
+(18/9*2+16)
+18/9=2
+2*2=4
+4+16=20
+(5*4-3^3)
+3^3=27
+5*4=20
+20-27=-7
+X=(18/9 * 2 + 16) – ( 5 * 4 – 3^3)=(20)-(-7)
+X=27
 
 X = (5 + 2 * 4) – (25 +. 5)2
+(5 + 2 * 4)
+2*4 = 8
+5+8=13
+(25 +. 5)
+25.5
+(25 +. 5)2 =(25.5)2
+51
+X = (5 + 2 * 4) – (25 +. 5)2 = 13 - 51
+X= -38
 
 X = (100/5^2 + 1) + 11 * 3
+(100/5^2 + 1)
+5^2 = 25
+100/5^2= 100/25 = 4
+100/5^2 + 1= 4+1 =5
+ 11 * 3 = 33
+ (100/5^2 + 1) + 11 * 3 =5 + 33 
+X= 38
 
 X = ((8-6)^2*3)^3.
-
+(8-6)=2
+(8-6)^2=2^2= 4
+(8-6)^2*3= 4*3 = 12
+((8-6)^2*3)^3 = 12^2
+X=1,728
 
 ## OPERADORES RELACIONALES
 Reto. Una empresa de logística ofrece a sus trabajadores un bono de
@@ -17,6 +47,8 @@ notifica que ha sido acreedor al bono de puntualidad. Si el empleado tiene
 2 retardos se le suspende un día y si tiene 3 o más retardos se le da de
 baja al final del mes. Describe tal situación usando operadores
 relacionales.
+
+
 
 Reto. Analiza el problema y selecciona la opción que consideres que lo
 resuelve:
