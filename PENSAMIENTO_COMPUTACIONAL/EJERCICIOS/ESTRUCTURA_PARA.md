@@ -2,10 +2,19 @@
 
 Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
 Inicio
-declarar (nombre, cantidad, contador)
-nombre = "Ingresa Nombre a Imprimir"
-cantidad = "Ingresa el número de veces a imprimir el Nombre"
-for (contador =1 ; contador <= cantidad; 
+declarar (nombre, numero, contador)
+mostrar("Ingresa Nombre a Imprimir")
+asignar(nombre)
+mostrar("cuantas veces deseas imprimir tu nombre")
+asignar(numero)
+asignar(contador=1)
+PARA(contador<=numero)
+mostrar(nombre)
+contador=contador+1
+FINPARA
+fin
+
+
 
 
 
