@@ -49,3 +49,5 @@ Fin mientras
 mostrar resultado
 
 Fin
+
+![image](https://user-images.githubusercontent.com/101668305/159785546-a7b657c7-0606-42a0-b3c6-0a79b0e42896.png)
