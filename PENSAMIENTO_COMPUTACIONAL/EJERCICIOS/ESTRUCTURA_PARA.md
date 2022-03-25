@@ -34,6 +34,25 @@ fin
 
 Realizar algoritmo y diagrama de flujo de un programa que imprima las tablas de multiplicar del 1 al 10.
 
+Inicio
+
+declarar (numero,contador,resultado)
+
+asignar(numero=1, contador =1)
+
+PARA(numero<=10)
+
+resultado = numero*contador
+
+numero = numero + 1
+
+muestra resultado
+
+FINPARA
+
+contador=contador+1
+
+fin
 
 
 
