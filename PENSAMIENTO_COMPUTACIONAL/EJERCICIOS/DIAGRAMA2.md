@@ -13,7 +13,7 @@ mostrar ("Ingrese segundo valor")
 
 asignar (numero2)
 
-SI numero1>numero2 ENTONCES muestra numero1 SINO SI numero1<numero2 ENTONCES muestra numero2 
+SI numero1>numero2 ENTONCES muestra numero1 "es mayor a" numero2 SINO muestra numero2 "es mayor a " numero 1
 
 FIN SI
 
