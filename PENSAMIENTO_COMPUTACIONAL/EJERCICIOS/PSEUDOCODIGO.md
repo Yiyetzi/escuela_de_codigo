@@ -39,20 +39,34 @@ FinAlgoritmo
 
 5. Realiza un algoritmo y diagrama de flujo de un programa que resuelva el sigueinte problema: Solicitando se ingresen 4 calificaciones, una por periodo, se obtenga el promedio y se imprima una felicitación a quien obtenga un promedio mayor a 6, y se le informe ha reprobado a quien obtenga una calificacion menor a 6.
 
-lgoritmo promedio
+Algoritmo promedio
+	
 	Escribir "Ingresa Calificación 1er Periodo"
+	
 	Leer cal1
+	
 	Escribir "Ingresa Calificación 2do Periodo"
+	
 	Leer cal2
+	
 	Escribir "Ingresa Calificación 3er Periodo"
+	
 	Leer cal3
+	
 	Escribir "Ingresa Calificación 4to Periodo"
+	
 	Leer cal4
+	
 	prom<-(cal1+cal2+cal3+cal4)/4
+	
 	Si prom  >= 6  Entonces
+		
 		escribir "¡Felicidades, aprobaste el curso! :)"
+	
 	SiNo
+		
 		Escribir "Lo sentimos, tendras que repetir el curso :("
+	
 	Fin Si
 	
 	![image](https://user-images.githubusercontent.com/101668305/160261094-d97dba82-5d2e-40fc-be08-9ebe210b34b6.png)
