@@ -65,4 +65,18 @@ mostrar ("Ingresa Número)
 
 asignar (numero)
 
+SI numero % 2 == 0 ENTONCES
+
+muestra "El numero ingresado es par"
+
+SiNo 
+
+muestra "El numero ingresado es impar"
+
+FinSi
+
+FIN
+
+
+
 
