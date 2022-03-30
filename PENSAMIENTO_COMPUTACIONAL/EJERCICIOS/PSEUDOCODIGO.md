@@ -69,10 +69,10 @@ Algoritmo promedio
 	
 	Fin Si
 	
-	![image](https://user-images.githubusercontent.com/101668305/160261094-d97dba82-5d2e-40fc-be08-9ebe210b34b6.png)
-
-	
 FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/101668305/160896961-9a6c0d37-8378-4e89-acc5-50f8a71b3892.png)
+
 
 6. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
@@ -90,7 +90,56 @@ FinAlgoritmo
 
 8. Un programa que pida una letra y detecte si es una vocal.
 
+Algoritmo EsVocal
+	
+	Escribir "Hola, Ingresa una letra"
+	Leer letra
+	
+	Segun letra Hacer
+		"A"  O "a":
+			Escribir "Tu letra es una vocal"
+		"E"  O "e":
+			Escribir "Tu letra es una vocal"
+		"I"  O "i":
+			Escribir "Tu letra es una vocal"
+		"O"  O "o":
+			Escribir "Tu letra es una vocal"
+		"U"  O "u":
+			Escribir "Tu letra es una vocal"
+		"0" o"1" o "2" o "3" o "4" o "5" o "6" o "7" o "8" o "9":
+			Escribir "Caracter no valido"
+		De Otro Modo:
+			Escribir "Tu letra es una consonante"
+			
+	FinSegun
+	
+	
+FinAlgoritmo
+
+
+![image](https://user-images.githubusercontent.com/101668305/160896395-818af409-11f9-4b3c-ac8f-e02c6fee9eaa.png)
+
+
 
 10. Programa que pida 3 números y los muestre en pantalla de menor a mayor.
-11. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
-12. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
+
+
+
+12. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
+
+Algoritmo Impreiónnombre
+	
+	Escribir "Ingresa tu nombre"
+	Leer nombre
+	escribir "Ingresa el numero de veces que quieres imprimir tu nombre"
+	leer num
+
+	Para contador<- 1 Hasta num Con Paso 1 Hacer
+		Escribir nombre
+	Fin Para
+FinAlgoritmo
+
+
+![image](https://user-images.githubusercontent.com/101668305/160930537-6407a3b4-7450-426b-bbb0-7cca1b45156e.png)
+
+13. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
