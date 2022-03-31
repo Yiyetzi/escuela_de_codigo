@@ -59,9 +59,13 @@ Escribe un programa que permita al usuario ingresar los montos de las compras de
 
 ![image](https://user-images.githubusercontent.com/101668305/161122849-85184e47-b12d-4e85-801a-bf32a8397ae8.png)
 
+
 Algoritmo MONTOCOMPRA
+
 	Escribir "Ingresa Monto de compra"
+	
 	leer mont
+	
 	Mientras mont <> 0 Hacer
 		si mont>0 Entonces
 			resultado = resultado+mont
@@ -72,7 +76,9 @@ Algoritmo MONTOCOMPRA
 		leer mont
 		
 	Fin Mientras
+	
 	Escribir "El monto total es: $", resultado 
+
 FinAlgoritmo
 
 
