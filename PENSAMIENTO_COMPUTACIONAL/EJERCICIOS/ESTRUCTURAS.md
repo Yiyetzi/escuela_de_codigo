@@ -10,19 +10,26 @@ muestra ("Ingrese Número")
 
 asignar (num)
 
-Si num>=0
+Si num>0
 
 muestra ("El valor" num "es positivo")
 
 sino
 
+  si num<0
+
 muestra ( "El valor" num "es negativo")
+
+  sino 
+  
+  muestra ( "El valor" num "es neutro")
 
 FinSi
 
 FIN
 
-![image](https://user-images.githubusercontent.com/101668305/161135927-b0405ad2-a225-4bae-855f-9598d8fb9499.png)
+![image](https://user-images.githubusercontent.com/101668305/161143498-8ff5a63a-dfde-4da8-86bc-5302b53bfb34.png)
+
 
 * Programa que solicite se ingrese una letra y sólo permita introducir los caracteres s y n.
 
@@ -53,24 +60,34 @@ declarar (letra)
 muestra ("Ingresa la letra")
 
 asignar (letra)
+ En Caso de
 
-si letra = "a" && "A"
-
-muestra ("Tu letra es vocal")
-
-si letra = "e" && "E"
+letra = "a" && "A"
 
 muestra ("Tu letra es vocal")
 
-si letra = "i" && "I"
+letra = "e" && "E"
 
 muestra ("Tu letra es vocal")
 
-si letra = "o" && "O"
+letra = "i" && "I"
 
 muestra ("Tu letra es vocal")
 
-si letra = "u" && "U"
+letra = "o" && "O"
+
+muestra ("Tu letra es vocal")
+
+letra = "u" && "U"
+ 
+ SiNo 
+ 
+ muestra ("Tu letra es una consonante")
+
+Fin Constante
+
+Fin
+
 
 
 * Programa que pida 3 números y los muestre en pantalla de menor a mayor.  
