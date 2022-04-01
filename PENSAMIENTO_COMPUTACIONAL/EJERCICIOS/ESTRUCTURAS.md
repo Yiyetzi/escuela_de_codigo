@@ -4,7 +4,7 @@
 * Programa que pida un número y diga si es positivo o negativo
 Inicio
 
-declarar(num)
+declara(num)
 
 muestra ("Ingrese Número")
 
@@ -35,7 +35,7 @@ FIN
 
 Inicio
 
-declarar(LETRA)
+declara(LETRA)
 
 muestra ("Ingresa la letra S o N")
 
@@ -55,30 +55,30 @@ FIN
 
 Inicio
 
-declarar (letra)
+declara (letra)
 
 muestra ("Ingresa la letra")
 
 asignar (letra)
- En Caso de
+ En Caso de letra haga
 
-letra = "a" && "A"
-
-muestra ("Tu letra es vocal")
-
-letra = "e" && "E"
+"a" && "A":
 
 muestra ("Tu letra es vocal")
 
-letra = "i" && "I"
+"e" && "E":
 
 muestra ("Tu letra es vocal")
 
-letra = "o" && "O"
+"i" && "I":
 
 muestra ("Tu letra es vocal")
 
-letra = "u" && "U"
+ "o" && "O":
+
+muestra ("Tu letra es vocal")
+
+"u" && "U":
  
  SiNo 
  
@@ -97,7 +97,38 @@ Fin
 
 INICIO
 
-declara (n,mes)
+declara(mes)
+
+muestra("Ingrese el número del mes")
+
+asigna(mes)
+
+EN CASO DE (mes) HAGA
+
+1: mostar("enero")
+2: mostar("febrero")
+3: mostar("marzo") 
+4: mostar("abril") 
+5: mostar("mayo")
+6: mostar("junio") 
+7: mostar("julio")
+8: mostar("agosto")
+9: mostar("septiembre")
+10: mostar("octubre")
+11: mostar("noviembre")
+12: mostar("diciembre")
+
+SINO 
+mostrar("Ingresaste un número fuera del rango") 
+
+FIN CASO
+
+FIN
+
+![image](https://user-images.githubusercontent.com/101668305/161169459-6d4301a3-f096-4b75-985f-9cc0451fde1b.png)
+
+
+
 
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 
