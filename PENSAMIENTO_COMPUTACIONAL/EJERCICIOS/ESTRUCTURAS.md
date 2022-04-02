@@ -163,5 +163,28 @@ FIN
 
 * Para un programa que almacene la cadena de caracteres para una contraseña y email, pregunte al usuario por la contraseña y email e imprima por pantalla si la contraseña y el email introducidos por el usuario coincide con los guardadados en las variables.
 
+Inicio
+
+declarar (mail,con, mailcomp, concomp)
+
+Escribir ("Ingresa tu correo")
+leer (mail)
+
+escribir ("Ingresa contraseña")
+leer (con)
+
+mailcomp = "eresgenial@gmail.com"
+concomp = "porsiempreincreible"
+
+
+si correo
+
+while(correo!=correo_validar && contra!=contra_validar){
+    alert("correo o contraseña incorrecta");
+    correo = prompt("ingresa tu correo");
+    contra = prompt("ingresa tu contraseña");
+}
+alert("Bienvenido(a)");
+
 
 
