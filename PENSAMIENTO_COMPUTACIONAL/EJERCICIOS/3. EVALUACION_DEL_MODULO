@@ -60,11 +60,55 @@ Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para 
 
 Inicio
 
-declara(edad,totalum)float
+declara(edad,totalum, prom, resultado)float
 
 muestra ("Introduce Edad")
 
 asigna (edad)
+
+mientras edad > 0
+
+totalum=totalum+1
+resultado=resultado+edad
+prom= resultado/totalum
+
+muestra ("Introduce Edad")
+
+asigna (edad)
+
+FinMientras
+
+muestra (  "El promedio de edad del grupo es de " , prom, " años")
+
+FIN
+
+
+
+
+Algoritmo EdadProm
+	
+	Escribir "Introduce Edad"
+	Leer edad
+	
+	Mientras edad > 0 Hacer
+		totalum = totalum+1
+		resultado=resultado+edad
+		prom = resultado/totalum
+		
+		Escribir "Introduce Edad"
+		Leer edad
+		
+	FinMientras
+	
+	Escribir "El promedio de edad del grupo es de " , prom, " años"
+	
+FinAlgoritmo
+
+
+
+
+
+
 
 
 
