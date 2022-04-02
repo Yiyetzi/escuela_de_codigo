@@ -177,10 +177,9 @@ mailcomp = "eresgenial@gmail.com"
 concomp = "porsiempreincreible"
 
 
-si correo
+si mail=! mailcomp || con =! concomp
 
-while(correo!=correo_validar && contra!=contra_validar){
-    alert("correo o contraseña incorrecta");
+muetra "correo o contraseña incorrecta"
     correo = prompt("ingresa tu correo");
     contra = prompt("ingresa tu contraseña");
 }
