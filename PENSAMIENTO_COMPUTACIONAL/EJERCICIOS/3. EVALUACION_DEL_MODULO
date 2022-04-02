@@ -3,5 +3,51 @@ Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para 
 y el mensaje REPROBADO en caso contrario, considere además el siguiente requisito adicional que la nota debe cumplir: debe estar dentro del rango 1,0 a 7,0.
 
 
+inicio
+
+declara(cal)
+
+muestra ("Ingresa calificación final")
+
+asigna (cal)
+
+si
+
+
+
+
+
+Algoritmo AprobReprob
+	Escribir "Ingresa calificación final"
+	Leer cal
+	
+	si cal<= 7.0 Entonces
+		si cal >= 4.0 
+		Escribir " Felicidades Aprobaste :) "
+	SiNo
+		Escribir "Reprobado : ("
+	FinSi
+SiNo
+	
+	Escribir "Valor no valido, revisa nuevamente la calificación"
+	
+FinSi
+	
+	
+FinAlgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Actividad 2. Programa, usando algoritmo de estructura repetitiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para obtener la edad promedio de un grupo de N alumnos.
