@@ -179,11 +179,18 @@ concomp = "porsiempreincreible"
 
 si mail=! mailcomp || con =! concomp
 
-muetra "correo o contraseña incorrecta"
-    correo = prompt("ingresa tu correo");
-    contra = prompt("ingresa tu contraseña");
-}
-alert("Bienvenido(a)");
+muetra ("Correo o Contraseña incorrecta")
+  
+SiNo 
+
+muestra ("Bienvenido")
+
+FinSi
+
+FIN
+
+
+
 
 
 
